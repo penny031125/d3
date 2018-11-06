@@ -53,6 +53,7 @@
          .attr("stroke", "black")
          .text("Year");
 
+
         g.append("g")
          .call(d3.axisLeft(y).tickFormat(function(d){
              return "$" + d;
